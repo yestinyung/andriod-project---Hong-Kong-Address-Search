@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.project1.DetailActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="    Findaway.HK"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="    Findaway.HK"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text=""
+        />
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/Button_A"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=" Findaway.HK"
+        />
+</LinearLayout>

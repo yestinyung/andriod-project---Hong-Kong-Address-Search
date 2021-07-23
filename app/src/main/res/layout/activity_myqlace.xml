@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.project1.Myqlace">
+    <LinearLayout
+        android:background="#6EB94F"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+            <ImageButton
+                android:id="@+id/imageButton_baack"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/eeee" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="8"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/ActionBar_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="關於你的位置"
+                android:layout_weight="8"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="    地區"
+        />
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="    TextView"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="5"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="    附近地區"
+            />
+        <ImageButton
+            android:id="@+id/image_A"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/eeee" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:divider="#0000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="5"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="    附近街道"
+            />
+        <ImageButton
+            android:id="@+id/image_B"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/eeee" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/list2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:divider="#0000"/>
+    <TextView
+        android:layout_weight="5"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="    TextView"
+        android:id="@+id/TextView1"
+        />
+</LinearLayout>
+</ScrollView>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+</LinearLayout>
