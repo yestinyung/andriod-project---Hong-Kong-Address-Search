@@ -7,53 +7,57 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
     <LinearLayout
-        android:background="#6EB94F"
+        android:background="@color/colorBar"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="64dp"
         android:orientation="horizontal">
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="50dp"
+            android:layout_height="64dp"
             android:layout_weight="8"
             android:orientation="horizontal">
+
             <TextView
-                android:layout_gravity="center"
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
-                android:text="@string/test"
+                android:layout_gravity="center"
                 android:layout_weight="8"
-                />
+                android:textSize="20dp"
+                android:text="@string/test" />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
             android:gravity="right" >
             <ImageButton
                 android:id="@+id/imageButton_A"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                app:srcCompat="@drawable/eeee" />
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="#00000000"
+                app:srcCompat="@drawable/select" />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
             android:gravity="right" >
             <ImageButton
                 android:id="@+id/imageButton_B"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                app:srcCompat="@drawable/eeee" />
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="#00000000"
+                app:srcCompat="@drawable/about" />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
             android:gravity="right" >
             <ImageButton
                 android:id="@+id/imageButton_C"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                app:srcCompat="@drawable/eeee" />
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="#00000000"
+                app:srcCompat="@drawable/gear" />
         </LinearLayout>
     </LinearLayout>
     <ListView

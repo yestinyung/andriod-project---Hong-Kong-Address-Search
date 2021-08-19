@@ -1,5 +1,29 @@
 <resources>
-    <string name="app_name" translatable="false">Project1</string>
+    <string name="app_name">assignment</string>
     <string name="title_activity_maps" translatable="false">Map</string>
-    <string name="test">aaaa</string>
+    <string name="test">地圖指南</string>
+    <string name="no_location_detected">No location detected. Make sure location is enabled on the device.</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="about_title">關於你的位置</string>
+    <string name="about_area">地區</string>
+    <string name="about_Nearby_areas">附近地區</string>
+    <string name="about_Nearby_street">附近街道</string>
+    <string name="about_other_detail">detail</string>
+    <string name="about_Your_Location">位置</string>
+    <string name="detail_location">位置</string>
+    <string name="setting_title">設置</string>
+    <string name="setting_Explanation">是個簡單又實用的在地資訊應用程式.根據你的所在地, 顯示附近的住宅, 大廈, 學校, 酒店, 社區設施及場所.</string>
+    <string name="setting_choose_language">選擇主要語言</string>
+    <string name="system">系統(中文)</string>
+    <string name="chinese">中文</string>
+    <string name="english">English</string>
+    <string name="range">選擇覆蓋範圍</string>
+    <string name="big">大範圍</string>
+    <string name="middle">中範圍</string>
+    <string name="smaill">小範圍</string>
+    <string name="report">回報問題</string>
+    <string name="report_explanation">回報問題或提供意見,請電郵到:admin@admin.com</string>
+
 </resources>
